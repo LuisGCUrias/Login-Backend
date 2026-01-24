@@ -12,11 +12,18 @@
   "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^3.0.3",
+    "docenv": "^2.0.6",
     "express": "^5.2.1",
     "joi": "^18.0.2",
-    "mysql2": "^3.16.1"
+    "mariadb": "^3.4.5",
+    "mysql2": "^3.16.1",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "@prisma/client": "^7.3.0",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.11",
+    "npm": "^11.8.0",
+    "prisma": "^7.3.0"
   }
 }
